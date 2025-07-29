@@ -4,7 +4,7 @@ $host = '127.0.0.1';   // ou localhost
 $port = '3306';        // padrão do MySQL instalado
 $db   = 'hsf';
 $user = 'root';        // ou seu usuário
-$pass = '@hosphosp2023';            // coloque sua senha, se tiver
+$pass = '';            // coloque sua senha, se tiver
 
 try {
   $pdo = new PDO("mysql:host=$host;port=$port;dbname=$db;charset=utf8", $user, $pass);
